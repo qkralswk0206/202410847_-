@@ -16,9 +16,9 @@ int main()
     x_result = num1 ^ num2;
 
    
-    printf("비트 단위 AND 연산 결과: %d\n", a_result);
-    printf("비트 단위 OR 연산 결과: %d\n",  o_result);
-    printf("비트 단위 XOR 연산 결과: %d\n", x_result);
+    printf("%d & %d = %d \n", num1, num2, a_result);
+    printf("%d | %d = %d \n", num1, num2, o_result);
+    printf("%d ^ %d = %d \n", num1, num2, x_result);
 
     return 0;
 }
