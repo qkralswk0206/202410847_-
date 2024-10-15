@@ -7,7 +7,7 @@ void printJinsu(int n) {
 
     printJinsu(n / 2);
 
-    printf("%d", n % 2); //나머지 먼저 출력해주기
+    printf("%d", n % 2); 
 }
 
 int main() {
